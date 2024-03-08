@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Homepage</title>
 	<link href="styles.css" rel="stylesheet">
 
 </head>
+
 <body>
 	<nav>
 		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
+			<li class="crumb"><a href="./home.html">Home</a></li>
+			<li class="crumb"><a href="./profile.html">Profile</a></li>
+			<li class="crumb"><a href="./about.html">About</a></li>
+		</ol>
 	</nav>
 
 	<content>
 		<h1>Hello</h1>
 		<!-- insert hello world here -->
+		<div>
+			<img src="https://th-thumbnailer.cdn-si-edu.com/6ZmsnMxsZCMGJWn_0GDDjGsCG6g=/1000x750/filters:no_upscale():focal(400x267:401x268)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/b0/94/b094a830-dd4e-4aca-8884-5ab2b8a3625b/gettyimages-152621111_resize.jpg" alt="cat">
 
-		<img src="https://devmountain.com/wp-content/uploads/2020/10/devmountain-logo3.png">
+		</div>
+		
+
+		<p>Welcome to this website. It's quite possibly the most amazing website you'll ever see.</p>
+
+		<ul>
+			<li>Nice suite</li>
+			<li>Great hat</li>
+			<li>Nice socks</li>
+		</ul>
 
 		<h2>Contact Us</h2>
 		<form id="contact">
+
 			Your name:
 			<input type="text">
-
+			How did you hear about us:
+			<div>
+				<input type="checkbox" id="google" name="Google">
+				<label for="google">Google</label>
+			</div>
+			<div>
+				<input type="checkbox" id="friend" name="A friend">
+				<label for="friend">A Friend</label>
+			</div>
+			<div>
+				<input type="checkbox" id="other" name="Other">
+				<label for="other">Other</label>
+			</div>
+			
+			
 			Message:
 			<input type="textarea">
 
 			<input type="submit">
+
 
 
 		</form>
@@ -39,4 +68,5 @@
 	<script src="about.js"></script>
 
 </body>
+
 </html>

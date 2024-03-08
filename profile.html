@@ -1,6 +1,97 @@
-Not implemented yet! 
+<!DOCTYPE html>
+<html lang="en">
 
-<br>
-<br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
-<a href="./home.html"><< Back </a>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ol>
+            <li class="crumb"><a href="./home.html">Home</a></li>
+            <li class="crumb"><a href="./profile.html">Profile</a></li>
+            <li class="crumb"><a href="./about.html">About</a></li>
+        </ol>
+    </nav>
+
+    <main>
+
+        <header>
+            <h1>Profile</h1>
+        </header>
+
+        <div class="inner">
+            <div class="col-md">
+                <section class="container">
+                    <div class="img-holder">
+                        <img src="https://images.nightcafe.studio/jobs/ys7f0TMyLtoy8Y69mPuf/ys7f0TMyLtoy8Y69mPuf--1--yzbpp.jpg?tr=w-1600,c-at_max"
+                            alt="code monkey">
+
+                    </div>
+
+                </section>
+            </div>
+            <div class="col-lg">
+                <section class="container">
+                    <h2>Code Monkey</h2>
+                    <p>Hey, I'm a code monkey, and I thrive on the thrill of unraveling intricate lines of code to
+                        create seamless digital experiences. With a blend of creativity and precision, I meticulously
+                        craft solutions to complex programming challenges, ensuring every detail is finely tuned for
+                        optimal performance. From debugging to optimization, I fearlessly swing from one coding task to
+                        the next, driven by a passion for innovation and a relentless pursuit of excellence in the world
+                        of software engineering.</p>
+                </section>
+                <section class="container">
+                    <h3>Some of my favorite tasks:</h3>
+                    <ul>
+                        <li class="task">Writing JavaScript arrow functions</li>
+                        <li class="task">Pushing divs around with flexbox</li>
+                        <li class="task">Serving up data requests with Axios</li>
+                        <li class="task">Eating bananas</li>
+                    </ul>
+                </section>
+                <section class="container">
+                    <form>
+                        <input type="text" placeholder="Your firstName">
+                        <input type="text" placeholder="Your lastName">
+                        <label>What is your favorite programming language:</label>
+                        <select name="programming" id="languages">
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Swift">Swift</option>
+                            <option value="react">React</option>
+                            <option value="python">Python</option>
+                        </select>
+                        <label for="banana">On a scale of 1-5, how much do you like being paid in bananas?</label>
+                        <input type="range" id="banana" name="banana" min="0" max="5">
+                        <input type="date">
+                        <button type="submit">Submit</button>
+                    </form>
+                </section>
+
+                <section class="container">
+               
+                    <h3>Look, some buttons</h3>
+
+                    <button id="color" class="btn" >My Favorite Color</button>
+                    <button id="place" class="btn" >My Favorite Place</button>
+                    <button id="ritual" class="btn" >My Favorite Ritual</button>
+
+            
+            </section>
+
+            </div>
+
+           
+        </div>
+
+    </main>
+
+    <script src="profile.js"></script>
+    <script src="about.js"></script>
+</body>
+
+</html>
