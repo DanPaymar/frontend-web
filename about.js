@@ -1,6 +1,6 @@
+//
+
 console.log("hello world");
-
-
 
 function handleSubmit(evt) {
 	evt.preventDefault();
@@ -15,7 +15,9 @@ let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
 
-const homeImg = document.querySelector('img')
+// create variable to select image to mouseover
+const homeImg = document.querySelector('#catImg')
+
 // create the compliment function with an alert
 const compliment = () => {
 	alert(`You have good geometry`)

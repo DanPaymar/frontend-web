@@ -55,11 +55,23 @@
                     </ul>
                 </section>
                 <section class="container">
-                    <form>
+                    <h3>Theme song:</h3>
+                    <div class="codeMonkey">
+                        
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qYodWEKCuGg?si=HN3gDhe7SwBx6xBD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                    </div>
+                    
+
+                </section>
+                <section class="container">
+                    <h3>A nifty form:</h3>
+                    <form id="contact">
                         <input type="text" placeholder="Your firstName">
                         <input type="text" placeholder="Your lastName">
                         <label>What is your favorite programming language:</label>
-                        <select name="programming" id="languages">
+                        <select class="dropDown" name="programming" id="languages">
                             <option value="JavaScript">JavaScript</option>
                             <option value="Swift">Swift</option>
                             <option value="react">React</option>
@@ -68,7 +80,7 @@
                         <label for="banana">On a scale of 1-5, how much do you like being paid in bananas?</label>
                         <input type="range" id="banana" name="banana" min="0" max="5">
                         <input type="date">
-                        <button type="submit">Submit</button>
+                        <button class="btn" id="contact" type="submit">Submit</button>
                     </form>
                 </section>
 
